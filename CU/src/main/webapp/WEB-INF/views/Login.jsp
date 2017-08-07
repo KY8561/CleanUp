@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<a href="./MemberMainMV"><button>일반회원로그인</button></a>
 </body>
 </html>

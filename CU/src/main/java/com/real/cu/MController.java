@@ -39,5 +39,12 @@ public class MController {
 		return mav;
 		
 	}
+	@RequestMapping(value = "/MemberMainMV", method = RequestMethod.GET)
+	public ModelAndView MemberMainMV() {
+		mav = new ModelAndView();
+		mav.setViewName("PersonMain");		
+		return mav;
+		
+	}
 	
 }

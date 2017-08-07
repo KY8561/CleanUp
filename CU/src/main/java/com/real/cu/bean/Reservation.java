@@ -1,17 +1,21 @@
 package com.real.cu.bean;
 
 import java.util.Date;
+import java.util.List;
 
 public class Reservation {
 	String nr_code;
 	String nr_pid;
 	Date nr_date;
 	String nr_nlcode;
-	int state;
+	int nr_state;
 	String nr_pickupdate;
 	String nr_pickuptime;
 	String nr_deliverydate;
 	String nr_deliverytime;
+	
+	
+	
 	public String getNr_code() {
 		return nr_code;
 	}
@@ -36,11 +40,11 @@ public class Reservation {
 	public void setNr_nlcode(String nr_nlcode) {
 		this.nr_nlcode = nr_nlcode;
 	}
-	public int getState() {
-		return state;
+	public int getNr_state() {
+		return nr_state;
 	}
-	public void setState(int state) {
-		this.state = state;
+	public void setNr_state(int nr_state) {
+		this.nr_state = nr_state;
 	}
 	public String getNr_pickupdate() {
 		return nr_pickupdate;
@@ -66,5 +70,8 @@ public class Reservation {
 	public void setNr_deliverytime(String nr_deliverytime) {
 		this.nr_deliverytime = nr_deliverytime;
 	}
+	
+	
+
 	
 }
