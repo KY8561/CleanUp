@@ -17,9 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class MController {
-	
+
 	private ModelAndView mav;
-	
+
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView Home() {
 		mav = new ModelAndView();
@@ -37,7 +37,8 @@ public class MController {
 		mav = new ModelAndView();
 		mav.setViewName("JoinMember");		
 		return mav;
-		
 	}
-	
+
+
+
 }

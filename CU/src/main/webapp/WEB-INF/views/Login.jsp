@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<a href="./BusinessMain"><button>사업자로그인</button></a>
 </body>
 </html>
