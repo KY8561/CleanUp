@@ -8,5 +8,7 @@
 </head>
 <body>
 	<a href="./MemberMainMV"><button>일반회원로그인</button></a>
+	<a href="./BusinessMainMV"><button>사업자회원로그인</button></a>
+	<a href="./AdminMainMV"><button>관리자로그인</button></a>
 </body>
 </html>

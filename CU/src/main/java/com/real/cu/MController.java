@@ -46,5 +46,19 @@ public class MController {
 		return mav;
 		
 	}
-	
+	@RequestMapping(value = "/AdminMainMV", method = RequestMethod.GET)
+	public ModelAndView AdminMainMV() {
+		mav = new ModelAndView();
+		mav.setViewName("AdminMain");		
+		return mav;
+		
+	}
+	@RequestMapping(value = "/BusinessMainMV", method = RequestMethod.GET)
+	public ModelAndView BusinessMainMV() {
+		mav = new ModelAndView();
+		mav.setViewName("BusinessMain");		
+		return mav;
+		
+	}
+
 }

@@ -9,10 +9,11 @@
 <body>
 <a href="./LoginMV"><button>로그인</button></a>
 <a href="./JoinMemberMV"><button>회원가입</button></a><br/>
+<a href="./Test"><button>테스트</button></a>
 
 
 
-
+<a href="./test2">연습</a>
 
 </body>
 </html>

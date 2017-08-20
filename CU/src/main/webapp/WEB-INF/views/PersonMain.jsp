@@ -10,8 +10,6 @@
 </head>
 <body>
 	<div>
-
-
 		<ul>
 			<li><a href="">홈페이지 소개</a></li>
 			<li><a href="">마이페이지</a>
@@ -19,9 +17,9 @@
 					<li>나의 정보</li>
 					<li><a href="./personReservation">예약 내역</a></li>
 					<li>나의 포인트</li>
-					<li>나의 활동</li>
+					<li><a href="./myActivity">나의 활동</li>
 				</ul></li>
-			<li><a href="">매장찾기</a></li>
+			<li><a href="./shopListSelect">매장찾기</a></li>
 			<li><a href="">Q&A</a></li>
 		</ul>
 	</div>

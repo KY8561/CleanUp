@@ -11,8 +11,9 @@
   <body>
     개인 예약화면
     
-     ${RLIST} 
-     
+     ${BRLIST}
+     ${RLIST }
+     <a href="./shopReview?re_nrcode=NR1&re_nlcode=NL1">리뷰</a>
   </body>
-  <script></script>
+
 </html>

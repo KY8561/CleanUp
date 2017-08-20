@@ -28,6 +28,7 @@ public class Reservation {
 	public void setNr_pid(String nr_pid) {
 		this.nr_pid = nr_pid;
 	}
+	
 	public Date getNr_date() {
 		return nr_date;
 	}

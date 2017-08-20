@@ -5,6 +5,14 @@ public class Laundryhandle {
 	String lh_nlcode;
 	String lh_laundry;
 	int lh_payment;
+	String lh_kind;
+	
+	public String getLh_kind() {
+		return lh_kind;
+	}
+	public void setLh_kind(String lh_kind) {
+		this.lh_kind = lh_kind;
+	}
 	public String getLh_code() {
 		return lh_code;
 	}
