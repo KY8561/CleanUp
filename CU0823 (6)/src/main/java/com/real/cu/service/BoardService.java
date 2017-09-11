@@ -686,7 +686,6 @@ private String requestSelectHtml(List<com.real.cu.bean.Request> relist, List<Per
 
 	private void requestCheck() {
 		mav = new ModelAndView();
-		String id=(String)session.getAttribute("p_id");
 		int page=1;
 		int limit=5;
 		if(req.getParameter("page")!=null){

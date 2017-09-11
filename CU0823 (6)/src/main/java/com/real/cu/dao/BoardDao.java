@@ -90,6 +90,7 @@ public class BoardDao {
 	public void imgDelete(Image image) {
 		sqlSession.delete("board.imgDelete", image);
 	}
+	
 	public List<Request> requestCheck(LinkedHashMap<String, Object> map) {
 		return sqlSession.selectList("board.requestCheck",map);
 	}

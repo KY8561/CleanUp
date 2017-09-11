@@ -84,9 +84,11 @@
    <select id="reservationSelect2" parameterType="Map" resultType="reservation">
       <![CDATA[select * from (select rownum rnum,a.* from (SELECT * FROM RESERVATION WHERE NR_STATE = #{i} OR NR_STATE = #{j} ORDER BY NR_DATE DESC) a) where rnum>=#{startrow} and rnum<=#{endrow}]]>
    </select>
+   
    <select id="readypointSelect" parameterType="String" resultType="readypoint">
       SELECT * FROM READYPOINT WHERE RP_NRCODE = #{nr_code}
    </select>
+   
    <select id="personPhoneSelect" parameterType="String"
       resultType="String">
       SELECT P_PHONE FROM PERSON WHERE P_ID = #{id}

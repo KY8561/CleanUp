@@ -47,9 +47,11 @@
 	<select id="shopInfo" parameterType="String" resultType="n_laundry">
 		SELECT * FROM NL WHERE nl_code= #{re_nlcode}
 	</select>
+	
 	<select id="requestCheck" parameterType="Map" resultType="Request">
    <![CDATA[select * from (select rownum rnum,a.* from (select *from request) a) where rnum>=#{startrow} and rnum<=#{endrow}]]>
 	</select>
+	
 	<select id="getperson" resultType="Person" parameterType="String">
 		SELECT
 		* FROM PERSON WHERE P_ID=#{pid}
@@ -122,6 +124,7 @@
 		INSERT INTO answer
 		VALUES(#{an_code},#{an_rcode},'admin',#{an_content},sysdate)
 	</insert>
+	
 	<select id="requestCheckCount" resultType="Integer">
 		select count(*) from request
 	</select>
